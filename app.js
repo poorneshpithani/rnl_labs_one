@@ -32,3 +32,24 @@ new Swiper(".reviewSwiper", {
     }
   }
 });
+
+// FAQ Toggle
+document.querySelectorAll(".faq-question").forEach((item) => {
+  item.addEventListener("click", () => {
+    const parent = item.parentElement;
+
+    // Close others
+    document.querySelectorAll(".faq-item").forEach((el) => {
+      if (el !== parent) {
+        el.classList.remove("active");
+        el.querySelector(".faq-toggle").innerText = "+";
+      }
+    });
+
+    // Toggle current
+    parent.classList.toggle("active");
+
+    const toggle = item.querySelector(".faq-toggle");
+    toggle.innerText = parent.classList.contains("active") ? "−" : "+";
+  });
+});
