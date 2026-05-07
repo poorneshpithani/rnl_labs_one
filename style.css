@@ -46,7 +46,7 @@ img {
 }
 
 .main-navbar {
-  background: #8bd0f2;
+  background: #fff;
   box-shadow: 0 2px 18px rgba(0,0,0,0.04);
 }
 
@@ -63,7 +63,7 @@ img {
 }
 
 .nav-link {
-  color: white;
+  color: #000080;
   font-family: Arial, sans-serif;
   font-size: 20px;
   font-weight: 500;
@@ -1101,11 +1101,7 @@ img {
   font-weight: 700;
   text-decoration: none;
 }
-/* .design a {
-  color: #0b2c6b;
-  text-decoration: none;
-  font-weight: 600;
-} */
+
 
 .back-top {
   position: fixed;
