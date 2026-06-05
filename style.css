@@ -992,11 +992,30 @@ img {
   margin-bottom: 12px;
 }
 
+/* .info-item p {
+  color: #000;
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 0;
+} */
+
 .info-item p {
   color: #000;
   font-size: 14px;
   line-height: 1.7;
   margin: 0;
+  word-break: normal;
+}
+
+.phone-number {
+  white-space: nowrap;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.phone-number a {
+  color: #000;
+  text-decoration: none;
 }
 
 .contact-info-area hr {
@@ -1318,4 +1337,3 @@ img {
     font-size: 24px;
   }
 }
-
